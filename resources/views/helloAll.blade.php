@@ -15,7 +15,7 @@
     SENZA controller:
     - /helloAll: saluta tutti gli utenti in inglese (statico, no variabili)
     - /helloYou: saluta utente per nome (variabile) in inglese
-    - /helloYou2: saluta utente per nome (stessa varbile, stessa view, ma nome diverso) in inglese
+    - /helloYou2: saluta utente per nome (stessa variabile, stessa view, ma nome diverso) in inglese
     CON controller:
     - /holaTodo: saluta tutti gli utenti in spagnolo
     - /holaTu: saluta utente per nome (variabile) in spagnolo
