@@ -39,3 +39,7 @@ Route::get('helloYou2', function () {
 // 1) saluta tutti in spagnolo
 
 Route::get('holaTodo', 'HolaController@holaTodos');
+
+// 2) saluta tutti in spagnolo
+
+Route::get('holaTu', 'HolaController@holaTu');

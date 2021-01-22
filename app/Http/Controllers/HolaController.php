@@ -10,4 +10,9 @@ class HolaController extends Controller
     {
         return view('hola');
     }
+    public function holaTu()
+    {
+        $nombre = 'Juan';
+        return view('holaTu', compact('nombre'));
+    }
 }
