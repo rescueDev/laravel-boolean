@@ -40,6 +40,10 @@ Route::get('helloYou2', function () {
 
 Route::get('holaTodo', 'HolaController@holaTodos');
 
-// 2) saluta tutti in spagnolo
+// 2) saluta utente in spagnolo con variabile
 
 Route::get('holaTu', 'HolaController@holaTu');
+
+// 3) saluta tutti in spagnolo
+
+Route::get('holaTu2', 'HolaController@holaTu2');
