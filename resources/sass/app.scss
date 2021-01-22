@@ -1,1 +1,23 @@
-//
+body {
+    background: rgb(58, 132, 180);
+    background: linear-gradient(
+        106deg,
+        rgba(58, 132, 180, 1) 0%,
+        rgba(223, 29, 253, 1) 28%,
+        rgba(57, 40, 207, 1) 75%,
+        rgba(106, 69, 252, 1) 100%
+    );
+    color: whitesmoke;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        .row {
+            box-shadow: 2px 1px 2px 1px white;
+            border-radius: 8px;
+        }
+        h1 span {
+            color: yellow;
+        }
+    }
+}

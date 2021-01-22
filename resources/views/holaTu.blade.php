@@ -28,7 +28,9 @@
 <body>
     <div class="container">
         <div class="row">
-            <h1>Hola {{ $nombre }} </h1>
+            <h1>Hola
+                <span>{{ $nombre }} </span>
+            </h1>
         </div>
     </div>
 </body>
