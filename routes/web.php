@@ -23,7 +23,7 @@ Route::get('/helloAll', function () {
 });
 
 // 2) saluta utente per nome con variabile
-/* Route::get('helloYou', function () {
+Route::get('helloYou', function () {
     $name = 'Vincenzo';
-    return view('')
-}) */
+    return view('helloYou', compact('name'));
+});
