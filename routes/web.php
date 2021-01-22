@@ -27,3 +27,9 @@ Route::get('helloYou', function () {
     $name = 'Vincenzo';
     return view('helloYou', compact('name'));
 });
+
+// 3) saluta utente per nome in nuova route ma con stessa variabile (nome diverso) nella stessa view
+Route::get('helloYou2', function () {
+    $name = 'Gianni';
+    return view('helloYou', compact('name'));
+});
