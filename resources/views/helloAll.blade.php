@@ -11,6 +11,7 @@
 
 
     {{-- GOAL: sulla falsa riga di quanto visto questa mattina creare le seguenti rotte
+
     SENZA controller:
     - /helloAll: saluta tutti gli utenti in inglese (statico, no variabili)
     - /helloYou: saluta utente per nome (variabile) in inglese
@@ -27,7 +28,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <h1></h1>
+            <h1>Hello Users!!</h1>
         </div>
     </div>
 </body>

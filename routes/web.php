@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 1) saluta tutti gli utenti in inglese
+Route::get('/helloAll', function () {
+    return view('helloAll');
+});
+
+// 2) saluta utente per nome con variabile
+/* Route::get('helloYou', function () {
+    $name = 'Vincenzo';
+    return view('')
+}) */
