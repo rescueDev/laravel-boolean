@@ -33,3 +33,9 @@ Route::get('helloYou2', function () {
     $name = 'Gianni';
     return view('helloYou', compact('name'));
 });
+
+//Controller route
+
+// 1) saluta tutti in spagnolo
+
+Route::get('holaTodo', 'HolaController@holaTodos');
